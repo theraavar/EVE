@@ -1,8 +1,15 @@
 :root {
   /* This is our primary theme color. */
   --color: #003399;
+  --hue: 200;
+  --saturation: 120;
+  --lightness: 20;
+  
+  --color-light: hsl(var(--hue), var(--saturation), 30);
+  --color-dark: hsl(var(--hue), var(--saturation), 10);
 }
 * {
+  background-color: var(--color-light);
   border: 1px solid var(--color);
 }
 .flex-container {
