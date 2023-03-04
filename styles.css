@@ -5,8 +5,8 @@
   --saturation: 120;
   --lightness: 20;
   
-  --color-light: hsl(var(--hue), var(--saturation), 30);
-  --color-dark: hsl(var(--hue), var(--saturation), 10);
+  --color-light: hsl(var(--hue) var(--saturation) 30%);
+  --color-dark: hsl(var(--hue) var(--saturation) 10%);
 }
 * {
   background-color: var(--color-light);
