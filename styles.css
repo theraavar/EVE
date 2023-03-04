@@ -1,0 +1,34 @@
+:root {
+  /* This is our primary theme color. */
+  --color: #003399;
+}
+* {
+  border: 1px solid var(--color);
+}
+.flex-container {
+  display: flex;
+}
+.flex-box {
+  flex: 1 0 auto;
+}
+/*--- SECTIONS ---*/
+#header, nav, main, #footer {
+  flex-basis: 100vw;
+}
+/* HEADER */
+#header {
+  min-height: 15vh; 
+}
+/* NAVIGATION BAR */
+nav {
+  min-height: 5vh;
+}
+/* CONTENT */
+main {
+  flex-grow: auto;
+  min-height: 30vh; 
+}
+/* FOOTER */
+#footer {
+  min-height: 5vh; 
+}
