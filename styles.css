@@ -13,7 +13,7 @@
 }
 /*--- SECTIONS ---*/
 #header, nav, main, #footer {
-  flex-basis: 100vw;
+  flex-basis: 100%;
 }
 /* HEADER */
 #header {
