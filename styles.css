@@ -33,7 +33,6 @@ nav {
 }
 /* CONTENT */
 main {
-  flex-grow: auto;
   min-height: 30vh; 
 }
 /* FOOTER */
