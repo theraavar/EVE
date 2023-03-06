@@ -3,6 +3,7 @@
   --color: #003399;
 }
 * {
+  align-items: center;
   border: 1px solid var(--color);
   margin: 0;
   padding: 0;
